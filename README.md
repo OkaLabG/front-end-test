@@ -29,6 +29,8 @@ O projeto deve ser desenvolvido com base na estrutura encontrada neste repositó
 - [Figma](https://www.figma.com/file/eTfdlQA4vfJINAkYfWXibI/Test-Front-End?node-id=0%3A1&t=y9ZmHOPkjuSX5ctO-1) com todas as logos, imagens, fontes e cores que devem ser seguidas.
 - [json-server](https://www.npmjs.com/package/json-server).
 
+**Ao finalizar o teste, realize um merge request para podermos avaliar 😁**
+
 Em caso de dúvidas, envie e-mail para reinaldo@imobpower.com.
 
 **Boa sorte!**
