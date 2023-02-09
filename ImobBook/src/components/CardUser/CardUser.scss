@@ -1,0 +1,79 @@
+div.card-user {
+  width: 360px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: row;
+  height: 160px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #2dc2a8 0%, #772ad8 100%);
+  border: 2px solid #7236d5;
+  gap: 1rem;
+
+  div.image-container {
+    width: 80px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    img {
+      margin: 0 auto;
+      width: 75px;
+      height: 75px;
+      border-radius: 50%;
+    }
+  }
+
+  div.user-content {
+    padding: 1rem 0.5rem;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+
+    div.user-info {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      align-content: center;
+
+      p.user-name {
+        width: 175px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight: 700;
+      }
+
+      p.user-normal-info {
+        font-weight: 700;
+      }
+    }
+
+    div.info-count {
+      margin-top: 0.5rem;
+      padding: 0 0.5rem;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      div.count-item {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 0.15rem;
+        align-content: center;
+        align-items: center;
+
+        p {
+          font-size: 24;
+          font-weight: 900;
+          color: #2dc2a8;
+        }
+      }
+    }
+  }
+}
