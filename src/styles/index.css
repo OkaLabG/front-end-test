@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --gray100: #ECECEC;
+    --gray200: #C3C3C3;
+    --gray300: #969696;
+    --gray400: #6F6F6F;
+    --gray500: #494949;
+    --gray600: #2F2F2F;
+    --gray700: #1E1E1E;
+    --gray800: #111111;
+
+    --purple100: #EADDFF;
+    --purple200: #CFB1FF;
+    --purple300: #B88CFF;
+    --purple400: #9E63FF;
+    --purple500: #7236D5;
+    --purple600: #5A22B7;
+    --purple700: #41158B;
+    --purple800: #290762;
+    
+    --cyan100: #E7FFFB;
+    --cyan200: #C8FFF6;
+    --cyan300: #9CFBEB;
+    --cyan400: #64E7D1;
+    --cyan500: #2FC1A9;
+    --cyan600: #269A87;
+    --cyan700: #176A5D;
+    --cyan800: #10463E;
+}
+
+body {
+    background: var(--gray700) ;
+    color: var(--gray200);
+}

@@ -1,0 +1,29 @@
+
+
+
+
+.container-users {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.content-users {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .content-users {
+    grid-template-columns: 1fr ;
+  }
+}
