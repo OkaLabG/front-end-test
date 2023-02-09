@@ -1,0 +1,10 @@
+.container-layout {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+}

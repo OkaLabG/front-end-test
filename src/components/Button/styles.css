@@ -1,0 +1,102 @@
+.container-button {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: none;
+}
+
+.container-button:hover {
+  cursor: pointer;
+}
+
+.default {
+  background: var(--purple200);
+  color: var(--gray600)
+}
+.default:hover {
+  background: var(--purple300);
+}
+.default:active {
+  background: var(--purple200);
+}
+
+.link {
+  background: transparent;
+  color: var(--cyan300);
+  padding: 0;
+}
+.link:hover {
+  text-decoration: underline;
+  color: var(--cyan200);
+}
+.link:active {
+  color: var(--cyan300);
+  transition: 0s;
+  transform: scale(0.95);
+}
+
+.primary{
+  background: var(--cyan400);
+}
+.primary:hover {
+  background: var(--cyan500);
+  transition: 0.3s;
+}
+.primary:active {
+  background: var(--cyan400);
+  transition: 0.1s;
+}
+
+.secondary{
+  background: var(--purple400);
+  color: #fff;
+}
+.secondary:hover {
+  background: var(--purple500);
+  transition: 0.3s;
+}
+.secondary:active {
+  background: var(--purple400);
+  transition: 0.1s;
+}
+
+.outline{
+  background: transparent;
+  border: 2px solid var(--cyan100);
+  color: var(--cyan100);
+}
+.outline:hover {
+  background: var(--cyan100);
+  color: var(--gray600);
+  transition: 0.3s;
+}
+.outline:active {
+  background: var(--cyan200);
+  transition: 0.1s;
+  border: 2px solid var(--cyan200);
+}
+
+.buttonPost {
+  background: transparent;
+  color: var(--gray100);
+  padding: 0;
+  align-items: center;
+}
+
+.buttonPost:hover {
+  background: #ffffff20;
+}
+
+.buttonPost:active {
+  background: #ffffff30;
+  transition: 0.1s;
+}
+
+.buttonPost:active > svg {
+  transition: 0.1s;
+}
