@@ -72,6 +72,7 @@ const Home: React.FC = () => {
   return (
     <BodyPage>
       <Header title="Home" />
+      
       <Content>
         {currentUsersDetails.map((user) => {
           return (

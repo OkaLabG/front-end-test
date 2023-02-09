@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 
 import Home from "../Pages/Home";
-import Posts from "../Pages/Users";
+import Posts from "../Pages/Posts";
 
 const router = createBrowserRouter([
   {

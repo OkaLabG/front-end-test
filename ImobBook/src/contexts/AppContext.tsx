@@ -18,6 +18,7 @@ import { getAllPosts } from "../services/posts";
 
 export interface AppContextData {
   orderedUsersByScore: ILeadsPosts[];
+  allPosts: IPost[];
 }
 
 const AppContext = createContext<AppContextData>({} as AppContextData);
@@ -73,9 +74,10 @@ const AppProvider: React.FC<any> = ({ children }) => {
 
     const orderedArray = orderByImportance(newArray);
 
-
     setOrderedUsersByScore(orderedArray);
   }, [allUsers, allPosts, allComments, allLikes]);
+
+  const mergePostsWithComments = useCallback(() => {}, []);
 
   const handleGetAllUsers = useCallback(async () => {
     const response = await getAllUsers();
@@ -120,7 +122,7 @@ const AppProvider: React.FC<any> = ({ children }) => {
   }, [allUsers, allPosts]);
 
   return (
-    <AppContext.Provider value={{ orderedUsersByScore }}>
+    <AppContext.Provider value={{ orderedUsersByScore, allPosts }}>
       {children}
     </AppContext.Provider>
   );

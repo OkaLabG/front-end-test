@@ -1,0 +1,29 @@
+.comment-container {
+  width: 100%;
+  height: 200px;
+  padding: .5rem .75rem;
+  background: linear-gradient(180deg, #2DC2A8 0%, #772AD8 100%);
+  border-radius: 8px;
+  margin: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  
+  .comment-content {
+    width: 100%;
+    height: 95%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background: #ecececa1;
+
+
+    div.image-container {
+      img {
+        width: 200px;
+        height: 100%;
+        border-radius: 8px 0 0 8px;
+      }
+    }
+  }
+}
